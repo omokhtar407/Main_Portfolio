@@ -54,8 +54,8 @@ $("a[href^= '#'] ").click(function(e){
 
 // for Loading
 $(document).ready(function(){
-    $('.spinner').fadeOut(30, () => {
-        $('.spinner').parent().fadeOut(40 , () => {
+    $('.spinner').fadeOut(3000, () => {
+        $('.spinner').parent().fadeOut(4000 , () => {
             $('.loading').remove();
             $('body').css("overflow-y" , "auto");
         })
